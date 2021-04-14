@@ -1,7 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Noto+Sans+JP&display=swap');
 
 * {
   margin: 0;
@@ -11,7 +8,7 @@
 
 body {
 		color: white;
-		font-family: 'Clab Personal Use', Italic;
+		font-family: 'Noto Sans JP', sans-serif;
 		font-style: normal;
 		font-weight: 400;
 	    line-height: 1.6em;
@@ -19,9 +16,18 @@ body {
 		font-size: 100%;
   
 	}
-nav {
-  height:50px;
+
+.navigation {
+   height:50px;
   background:orange;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 20px;
+  font-size: .5em;
 }
 
 nav ul{
@@ -57,7 +63,7 @@ section{
 
 .title {
   position: absolute;
-  top: 155px;
+  top: 195px;
   left: 15px;
   text-align: left;
   width: 500px;
@@ -70,12 +76,17 @@ section{
 }
 
  h2 {
-	font-family: 'Libre Franklin', sans-serif;
+	  font-family: 'Fredoka One', cursive;
 	font-weight: 400;
 	font-size: 3.250em;
 	line-height: 1.1;
   margin: 0;
   padding: 25px;
+}
+
+h3 {
+  font-family: 'Fredoka One', cursive;
+  font-size: 1.5em;
 }
 
 h4 {
@@ -99,16 +110,15 @@ h4 {
 
 .row {
   width: 80%;
-  margin: 10px auto;
+  margin: 0px auto;
+  padding: 20px 0;
   display: flex;
   justify-content: space-around;
 }
 
 .columns_3 {
 	width: 300px;
-	margin-right: 20px;
-  
-	
+	margin-right: 20px;  
 }
 .columns_3:last-of-type {
 	margin-right: 0;
@@ -125,9 +135,12 @@ h4 {
   object-fit: cover;
 }
 
-.origin-caption {
-    margin-bottom: 5rem;
+.introduction-text {
+  margin: 10px;
+}
 
+.origin-caption {
+    margin-bottom: 5.5rem;
 }
 
 .btn{
@@ -164,7 +177,6 @@ img{
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
   background: orange;
-  margin-top: 2rem;
 }
 
 .card h3{
@@ -220,13 +232,292 @@ img{
   background-image: url("https://assets.codepen.io/4988226/image_13.png");
   background-size:cover;
 }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.footer-container {
+  bacground-color: purple;
+  padding-bottom: 3em;
+}
 
-footer {
-  height:100px;
-  background: purple;
-  
+.footer{
+  width: 100%;
+  height: 41vh;
+  background-color: purple;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0px auto;
+}
+
+.footer-heading{
+  display: flex;
+  flex-direction: column;
+  margin-right: 3em;
   
 }
+
+.footer-heading h5{
+  margin: 10px;
+  text-transform: uppercase;
+
+}
+
+.footer-heading a {
+  color: white;
+  text-decoration: none;
+  margin-bottom: .5em;
+  font-size: .8em;
+  }
+
+.footer-heading a:hover{
+  color: red;
+  transition: 0.3s east-out;
+  
+}
+
+.footer-email-form {
+  padding: 25px 0;
+}
+
+.footer-email-form h5{
+  display: center;
+  margin-bottom: 1.2em;
+  text-transform: uppercase;
+}
+
+#footer-email {
+  width:250px;
+  height: 40px;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  padding-left: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  line-height: 2;
+}
+
+#footer-email::placeholder {
+  color: purple;
+}
+
+#footer-email-btn{
+  width: 100px;
+  border-radius: 4px;
+  opacity: 0.8;
+  color: black;
+  line-height: 3;
+}
+
+#footer-email-btn:hover{
+  cursor: pointer;
+  background-color: white;
+  transition: all 0.4s ease-out;
+}
+.copyright {
+  display:block;
+  float: left;
+  background-color: purple;
+  text-align: center;
+  width: 100%;
+  color: #ffffff;
+  padding: 25px 0;
+  margin-top:-76px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
